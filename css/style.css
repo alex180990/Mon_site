@@ -1,0 +1,310 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background-color: #9CA1A2;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+}
+
+.img_footer{
+    width: 3rem;
+    height: 3rem;
+}
+
+hr{
+    background-color: #34394E;
+    border:solid #34394E 1px;
+    height: 2px;
+}
+
+h2,h3,h4,h5,h6{
+    margin: 1rem auto;
+}
+
+h4{
+    text-decoration:underline;
+    font-style: oblique;
+    color: #3F4145;
+}
+
+.header{
+    width: 100%;
+}
+
+.container{
+    width: 1200px;
+    background-color: #EFEFEF;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.photo{
+    width: 20rem;
+    height: auto;
+}
+
+.general_info{
+    width: 100%;
+    height: 100%;
+}
+
+.general_knowledge{
+    width: 50%;
+    height: auto;
+}
+
+.contact_info{
+    width: 50%;
+    height: auto;
+}
+
+.btn_open{
+    width:2rem;
+    height: 2rem;
+    margin: auto 0;
+    border-radius: 5px;
+}
+
+.btn_close{
+    width:2rem;
+    height: 2rem;
+    margin: auto 0;
+    border-radius: 5px;
+}
+
+.fw-b{
+    font-weight: bold;
+}
+
+.fw-l{
+    font-size:large;
+}
+
+.fw-lg{
+    font-size: larger;
+}
+
+/**** disply ****/
+
+.ta-c{
+    text-align: center;
+}
+
+.ta-j{
+    text-align: justify;
+}
+
+.jc-c{
+    justify-content: center;
+}
+
+.jc-b{
+    justify-content: space-between;
+}
+
+.flex-1{
+
+    display: flex;
+}
+
+.pg-l-1{
+    padding-left: 1rem;
+}
+
+.pg-l-05{
+    padding-left: 0.5rem;
+}
+
+.pg-025{
+    padding: 0.25rem;
+}
+
+.pg-05{
+    padding: 0.5em;
+}
+
+.pg-1{
+    padding: 1rem;
+}
+
+.mg-n{
+    margin: none;
+}
+
+.mg-v-05{
+    margin: 0.5rem auto;
+}
+
+.mg-t-05{
+    margin-top: 0.5rem;
+}
+
+.mg-b-05{
+    margin-bottom: 0.5rem;
+}
+
+.mg-05-l{
+    margin-left: 0.5rem;
+}
+
+/**** calculatrice ****/
+
+.cal_dialog{
+    background-color: #989DA9;
+    border: solid black 1px;
+    border-radius: 5px;
+    width: 250px;
+    height: 310px;
+    margin: auto auto;
+    padding: 0.125rem;
+}
+
+.cal_input{
+    width:100%;
+    height: 30px; 
+    border-radius: 0.5rem;
+
+}
+  
+.btn{
+    width:23%;
+    height: 2.5rem;
+    box-sizing:border-box;
+    padding: 0;
+    margin-top: 2px;
+    border-radius: 1rem;
+}
+  
+.btn-1{
+      width:100%;
+      height: 2.5rem;
+      border-radius: 1rem;
+}
+  
+.calculatrice{
+    width:auto;
+    height: auto;
+    padding: 2px;
+    box-sizing:border-box;
+}
+
+/*List d'imbrication*/
+
+.imbri_dialog{
+    background-color: #989DA9;
+    padding: 5px;
+    border: solid black 1px;
+    border-radius: 5px;
+    width: 812px;
+    height: 300px;
+    margin: auto auto;
+}
+
+table{
+    padding: 3px;
+    border-radius: 3px;
+    border: 1px solid #333;
+
+}
+
+thead,
+tfoot {
+  background-color: #333;
+  color: #fff;
+}
+
+input{
+    width: 100%;
+}
+
+.flex-1{
+    display: flex;
+}
+
+.tdinput{
+    width: auto;
+}
+
+.tdbutton{
+    width: 25px;
+}
+
+.table{
+    width: 788px;
+}
+
+.liste{
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 3px;
+    width: 800px;
+    background-color: #EFEFEF;
+}
+
+.disply{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 3px;
+    width: 800px;
+    background-color: #EFEFEF;
+}
+
+.cutliste{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 3px;
+    width: 800px;
+    background-color: #EFEFEF;
+}
+
+.btn_remove{
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 5px;
+}
+
+.achat{
+    width: 763px;
+    padding: 2px;
+    border: 1px solid green;
+    color: green;
+    border-radius: 3px;
+    background-color: #B0F2B6
+}
+
+.coupe{
+    padding: 2px;
+    border: 1px solid blue;
+    color: blue;
+    border-radius: 3px;
+    background-color: #DFF2FF;
+    margin-top: 2px;
+    margin-right: 2px;
+}
+
+.perte{
+    padding: 2px;
+    border: 1px solid red;
+    color: red;
+    border-radius: 3px;
+    background-color: #FE96A0;
+    margin-top: 2px;
+    margin-right: 2px;
+}

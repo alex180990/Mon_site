@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="container">
+        <div class="flex-1 header">
+            <div class="photo">
+                <img src="./img/photo.jpg" alt="Photo d'Alexandre Cloutier-Pilon">
+            </div>
+            <div class="general_info mg-05-l">
+                <h1 class="flex-1 jc-c">Alexandre Cloutier-Pilon</h1>
+                <div class="flex-1 pg-1"> 
+                    <div class="fw-l contact_info">
+                        <h2>Pour me contacter !</h2>
+                        <p>(450) 512-5887</p>
+                        <p><a href="mailto:alexandre_cp@live.ca">alexandre_cp@live.ca</a></p>
+                        <p>397 Rue Lulli, Laval</p>
+                        <p>(Québec)</p>
+                    </div>
+                    <div class="fw-l ta-c general_knowledge">
+                        <div class="pg-05">
+                            <p class="fw-b fw-lg">Langues parlées et écrites :</p>
+                            <p>Français et anglais de base</p>
+                        </div>
+
+                        <div class="pg-05">
+                            <p class="fw-b fw-lg">Compétences informatiques:</p>
+                            <p>Suite Microsoft Office 365, GIT, HTML5, CSS3 (SASS et SCSS), C#(débutant), JavaScript, React, Node.js, MongoDB, PHP & MySQL.</p>
+                        </div>
+
+                        <div class="pg-05">
+                            <p class="fw-b fw-lg">Compétences informatiques à venir :</p>
+                            <p>Angular.js, Vue.js, .NET et Java</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header pg-1 fw-l">
+            <h2>Profil</h2>
+            <p class="ta-j">Je complète présentement une AEC en programmation Web. Je possède 12 ans d’expérience comme dessinateur et estimateur
+                industriels, ce qui m’a permis de développer mon aptitude à prendre des décisions et ma capacité à résoudre des
+                problèmes. On me reconnaît comme une personne responsable et créative. Je serais fortement intéressé de travailler
+                pour une équipe intègre et à l’affût des nouvelles technologies. Je suis convaincu que mon expérience ainsi que mes
+                nouveaux apprentissages apporteront grandement à votre équipe!
+            </p>
+            <h2><p>Mes projets <a href="https://github.com/alex180990">sur Github !</a></p></h2>
+        </div>
+        <hr>
+    </header>
+    <main class="container pg-1">
+        <section class="pg-1 fw-l">
+            <h2>Développement Web</h2>
+            <div>
+                <h3>Sommaire des compétences</h3>
+                <div>
+                    <h4>Progamation</h4>
+                    <ul class="pg-l-1">
+                        <li>Être autonome dans l’apprentissage côté serveur avec Node.js et MongoDB.</li>
+                        <li>Créer un site web complet de pages multiples en accord avec les normes W3C en utilisant les langages HTML5.</li>
+                        <li>Appliquer un style visuel à toutes les pages du site et JavaScript pour incorporer aux sites des fonctionnalités interactives.</li>
+                        <li>Utiliser des pseudocodes pour apporter une solution aux problèmes complexes.</li>
+                        <li>Faire preuve de curiosité pour suivre les nouvelles technologies du web. </li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Relations interpersonnelles</h4>
+                    <ul class="pg-l-1">
+                        <li>Expression orale et expression écrite faites de façon claire et efficace. </li>
+                        <li>Excellente écoute active dans la cueillette d'information et la rétroaction lors des réunions pour valider l’information.</li>
+                        <li>Sens de la pensée critique orienté vers le constructiviste lors des échanges avec les employés. </li>
+                        <li>Valider les éléments ambigus avant de clore une conversation écrite ou orale.</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Gestion du temps</h4>
+                    <ul class="pg-l-1">
+                        <li>Jugement et prise de décisions orientés vers le respect des échéanciers.</li>
+                        <li>Organiser et traiter l’information reçue avant de débuter une tâche.</li>
+                        <li>Analyser rigoureusement les opérations à effectuer pour réaliser les tâches demandées.</li>
+                    </ul>
+                </div>
+            </div>
+            <div>
+                <h3>Projet personnel</h3>
+                <div>
+                    <h4>Conception d'une calculatrice.</h4>
+                    <p>J'ai voulu me lancer dans ce petit projet pour évaluer mon niveau de compréhention dans le langages de programmation
+                        JavaScript.</p>
+                    <button class="mg-t-05 fw-l pg-025" id="openCalculatrice">Cliquez ici pour accéder à la calculatrice</button>
+                    <dialog class="cal_dialog" id="calculatrice">
+                        <div class="flex-1">
+                            <h5 class="fw-lg mg-v-05">Calculatrice</h5>
+                            <button class="btn_close" id="closeCalculatrice">X</button>
+                        </div>
+                        <div class="calculatrice fw-lg">
+                            <input class="cal_input mg-b-05 pg-l-05" type="text" id="affichage" value="0"/>
+                            <div class="jc-b">
+                                <button class="btn" type="button" id="btn7" >7</button>
+                                <button class="btn" type="button" id="btn8" >8</button>
+                                <button class="btn" type="button" id="btn9" >9</button>
+                                <button class="btn" type="button" id="add" >+</button>
+                            </div>
+                            <div class="jc-b">
+                                <button class="btn" type="button" id="btn4" >4</button>
+                                <button class="btn" type="button" id="btn5" >5</button>
+                                <button class="btn" type="button" id="btn6" >6</button>
+                                <button class="btn" type="button" id="soustraction" >-</button>
+                            </div>
+                            <div class="jc-b">
+                                <button class="btn" type="button" id="btn1" >1</button>
+                                <button class="btn" type="button" id="btn2" >2</button>
+                                <button class="btn" type="button" id="btn3" >3</button>
+                                <button class="btn" type="button" id="divide" >/</button>
+                            </div>
+                            <div class="jc-b">
+                                <button class="btn" type="button" id="clear" >C</button>
+                                <button class="btn" type="button" id="btn0" >0</button>
+                                <button class="btn" type="button" id="btnpoint" >.</button>
+                                <button class="btn" type="button" id="multiply" >*</button>
+                            </div>
+                            <button class="btn-1 mg-t-05" type="button" id="equal" >=</button>
+                        </div>
+                        <script src="js/calculatrice.js"></script>
+                    </dialog>
+                </div>
+                <div>
+                    <h4>Conception d'une application d'imbrication de pièce coupée.</h4>
+                    <p>Ce projet est un clin d'oel envers ma profession de dessinateur industriel. J'ai voulu expérimenter la POO avec cette courte application.</p>
+                    <button class="mg-t-05 fw-l pg-025" id="openImbrication">Cliquez ici pour accéder à l'application</button>
+                    <dialog class="imbri_dialog" id="liste">
+                        <div class="flex-1">
+                            <h5 class="fw-lg mg-v-05">Liste d'imbrication de pièces coupées</h5>
+                            <button class="btn_close" id="closeImbrication">X</button>
+                        </div>
+
+                        <div class="liste">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th class="fw-l">Profiler</th>
+                                        <th class="fw-l">Découpe</th>
+                                        <th class="fw-l">Quantité</th>
+                                        <th class="fw-l">Achat</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr id="ligneCut">
+                                        <td class="tdinput"><input class="fw-l pg-l-05" placeholder="W10 x 20" type="text" id="mat"></td>
+                                        <td class="tdinput"><input class="fw-l pg-l-05" placeholder="120''" type="text" id="cut"></td>
+                                        <td class="tdinput"><input class="fw-l pg-l-05" placeholder="2" type="text" id="qty"></td>
+                                        <td class="tdinput"><input class="fw-l pg-l-05" placeholder="240''" type="text" id="buy"></td>
+                                        <td class="tdbutton"><button id="addline" class="btn_remove fw-l  ">+</button></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    
+                        <div class="disply" id="disply"></div>
+
+                        <script src="js/imbrication.js"></script>
+                    </dialog>
+                </div>
+            </div>
+            <div class="mg-b-05">
+                <h3>Projet final - Infrastructure Web</h3>
+                <p class="">Cours sur les notions Back-End de la profession. Les langages utilisés dans ce cours fut le PHP et MySqlI.</p>
+                <p><a href="https://alexandre-cp.ca">Pour voir le projet, clicker ici !</a></p>
+            </div>
+            <div>
+                <a href="Alexandre Cloutier-Pilon cv programmeur (2023).pdf">Télécharger le CV en format PDF ?</a>
+            </div>
+        </section>
+        <hr>
+        <section class="pg-1 fw-l">
+            <h2>Dessinateur industriel</h2>
+            <p class="fw-l">L'expérience pour cette profession sera founis sur demande !</p>
+        </section>
+        <hr>
+        <section class="pg-1 fw-l">
+            <h2>Formation</h2>
+            <ul class="pg-l-1">
+                <li class="mg-b-05">AEC en Programmation Web formation en ligne : 2022 - En cours<p>CÉGEP DE TROIS-RIVIÈRES</p></li>
+                <li class="mg-b-05">Certificat en gestion de projet	: 2017<p>HEC MONTRÉAL</p></li>
+                <li class="mg-b-05">DEP en Dessin industriel : 2011<p>CENTRE CEP DE SAINT-JÉRÔME</p></li>
+            </ul>
+        </section>
+    </main>
+    <footer class="container">
+        <p class="flex-1 fw-l jc-c mg-b-05">Copyright © (Alexandre Cloutier-Pilon) 2023</p>
+        <div class="flex-1 jc-c mg-b-05">
+            <a href="https://www.facebook.com/ "> <img class="img_footer" src="img/icons8-facebook-50.png" alt="Facebook"> </a>
+            <a href="https://www.linkedin.com/in/alexandre-cloutier-pilon-85225b9a/"> <img class="img_footer" src="img/icons8-linkedin-50.png" alt="Linkedin"> </a>
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>
